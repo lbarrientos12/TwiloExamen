@@ -105,7 +105,49 @@ body{
 }
 
 .form-subscribe{
-	margin: 20px 0;
+	margin: 130px 0;
+}
+
+.email{
+    width: 434px;
+    border: none;
+    padding: 10px 0;
+}
+
+.submit{
+	border: none;
+	border-radius: 5px;
+	background-color: var(--negro);
+	color: #fff;
+	padding: 10px 20px; 
+}
+
+#worldwide{
+	text-align: center;
+	padding: 50px 0;
+}
+
+.tag-world{
+	background-color: var(--fondonaranja);
+	font-size: 20px;
+	font-weight: 700;
+	text-align: center;
+	border-radius: 15px;
+	width: 240px;
+	padding: 10px 0;
+	margin: auto;
+	color: var(--negro);	
+}
+
+.titulo-world{
+	font-size: 60px;
+	font-weight: 800;
+	color: var(--negro);
+}
+
+.card{
+	margin-top: 60px;
+	margin-bottom: 30px;
 }
 
 footer{
@@ -113,10 +155,15 @@ footer{
 }
 
 .footer-content{
+	color: var(--letrafooter);
 	font-size: 30px;
 	padding-left: 40px;
 }
 .footer-list{
 	text-decoration: none;
 	list-style: none;
+}
+
+.firma{
+	text-align: center;
 }
